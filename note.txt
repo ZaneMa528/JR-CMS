@@ -1,0 +1,94 @@
+CMS (content management system)
+
+博客
+电商
+
+
+学校school
+jr-CMS
+
+student
+teacher
+course
+
+user
+
+LMS
+
+
+ERD (entity relational diagram)
+
+
+hackolade
+moon modeler
+lucid chart
+draw.io
+
+
+elasticsearch + kibana
+
+
+
+
+
+student.controller.js
+students.controller.js
+controllers/students.js
+
+
+mongodb compass
+
+sql -> cascade delete 级联删除
+
+
+
+Hash 哈希
+不可逆
+
+加密 (Encrypt) -> 解密 (Decrypt)
+x -> X
+X -> x
+可逆
+
+hash
+x -> X
+x -> X
+
+rainbow table
+dictionary
+brutal force
+
+hash + salt (randomly generated)
+x + salt1 -> X1 + salt1
+x + salt2 -> X2 + salt2
+
+x' + salt1 -> X1' === X1 + salt1
+
+
+(pepper)
+
+bcrypt
+
+
+Session and cookie
+SSR (server-side rendering)
+session id -> cookie
+CSRF
+
+
+
+jwt 
+stateless
+cross-domain
+
+CSR
+
+
+
+multiple roles
+Admin -> delete
+User -> add, post, patch, put
+
+Access control
+RBAC -> role based AC
+ABAC -> attribute based AC
