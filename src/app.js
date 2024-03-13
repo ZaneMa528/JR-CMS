@@ -19,10 +19,10 @@ app.use(morgan);
 
 app.use('/v1', v1Router);
 
-app.use(pathNotFoundMiddleware);
+// app.use(pathNotFoundMiddleware);
 
 app.use(validationErrorMiddleware);
 app.use(notFoundErrorMiddleware);
-// app.use(unknownErrorMiddleware);
+app.use(unknownErrorMiddleware);
 
 module.exports = app;
