@@ -4,7 +4,7 @@ const cors = require('cors');
 const v1Router = require('./routes');
 const morgan = require('./common/morgan');
 const formatResponseMiddleware = require('./middleware/formatResponse.middleware');
-const pathNotFoundMiddleware = require('./middleware/pathNotFound.middleware');
+// const pathNotFoundMiddleware = require('./middleware/pathNotFound.middleware');
 const unknownErrorMiddleware = require('./middleware/errorMiddleware/unknownError.middleware');
 const validationErrorMiddleware = require('./middleware/errorMiddleware/validationError.middleware');
 const notFoundErrorMiddleware = require('./middleware/errorMiddleware/notFoundError.middleware');
@@ -23,6 +23,6 @@ app.use(pathNotFoundMiddleware);
 
 app.use(validationErrorMiddleware);
 app.use(notFoundErrorMiddleware);
-app.use(unknownErrorMiddleware);
+// app.use(unknownErrorMiddleware);
 
 module.exports = app;
